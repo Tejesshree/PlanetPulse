@@ -1379,7 +1379,8 @@ input[type="checkbox"] {
 
 /*-----------------------------listed in home---------------------------*/
 
-.content {
+
+.about-us {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
@@ -1388,23 +1389,30 @@ input[type="checkbox"] {
     border-radius: 8px;
 }
 
-.benefits-list {
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.commitment-list {
     list-style-type: none;
     padding: 0;
 }
 
-.benefit-item {
-    margin-bottom: 20px;
+.commitment-item {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 5px solid #3498db;
+    background-color: #ecf0f1;
+    border-radius: 4px;
 }
 
-.benefit-item h3 {
-    color: #2c3e50;
-    margin-bottom: 10px;
+.commitment-item strong {
+    display: block;
+    color: #2980b9;
+    font-size: 1.1em;
+    margin-bottom: 5px;
 }
 
-.benefit-item p {
-    margin: 0;
-    line-height: 1.6;
-}
 
 
