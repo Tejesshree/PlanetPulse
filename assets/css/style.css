@@ -1414,5 +1414,36 @@ h2 {
     margin-bottom: 5px;
 }
 
+/*-------------------------------Qualities imbued within our vessel of water.----------------------------------*/
+
+
+.features {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.features-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feature-item {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 5px solid #3498db;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+}
+
+.feature-item strong {
+    display: block;
+    color: #2980b9;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
 
 
