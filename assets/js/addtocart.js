@@ -1,7 +1,7 @@
 const product = [
     {
         id: 0,
-        image: 'assets/img/waterbottles/pikaso_texttoimage_generate-adult-use-water-bottlechildren-use-water- (1) (1).jpeg',
+        image: 'image/aa-1.jpg',
         title: 'Flask',
         price: 1200,
     },
@@ -33,7 +33,7 @@ document.getElementById('root').innerHTML = categories.map((item)=>
     return(
         `<div class='box'>
             <div class='img-box'>
-                <img class='images' src=${assets/img/waterbottles}></img>
+                <img class='images' src=${image}></img>
             </div>
         <div class='bottom'>
         <p>${title}</p>
@@ -71,7 +71,7 @@ function displaycart(){
             return(
                 `<div class='cart-item'>
                 <div class='row-img'>
-                    <img class='rowimg' src=${assets/img/waterbottles}>
+                    <img class='rowimg' src=${image}>
                 </div>
                 <p style='font-size:12px;'>${title}</p>
                 <h2 style='font-size: 15px;'>$ ${price}.00</h2>`+
