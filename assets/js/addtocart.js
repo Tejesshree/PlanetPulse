@@ -2,19 +2,19 @@ const product = [
     {
         id: 0,
         image: 'image/hh-2.jpeg',
-        title: 'Flask',
-        price: 1200,
+        title: 'Plastic water bottle',
+        price: 100,
     },
     {
         id: 1,
         image: 'image/steel.jpeg',
-        title: 'Air Pods Pro',
-        price: 60,
+        title: 'Steel water bottle',
+        price: 550,
     },
     {
         id: 2,
         image: 'image/ecofriendly plastic.jpeg',
-        title: '250D DSLR Camera',
+        title: '',
         price: 230,
     },
     {
