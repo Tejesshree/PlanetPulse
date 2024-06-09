@@ -3,99 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Water Bottle Advertisement</title>
+    <title>blank slate home</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            font-family: sans-serif;
         }
-        .navbar {
-            background-color: #333;
-            overflow: hidden;
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
-        .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
+        .header {
+            background-color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .search {
+            display: flex;
+            align-items: center;
+        }
+        .header .search input {
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .header .search button {
+            background-color: #eee;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .header .account {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .header .account a {
             text-decoration: none;
-        }
-        .navbar a:hover {
-            background-color: #ddd;
-            color: black;
+            color: #333;
         }
         .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
             padding: 20px;
         }
-        .page {
-            display: none;
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 250px;
         }
-        .page.active {
-            display: block;
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product .title {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .product .price {
+            margin-top: 5px;
+        }
+        .product button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
         }
     </style>
-    <script>
-        function showPage(pageId) {
-            const pages = document.querySelectorAll('.page');
-            pages.forEach(page => {
-                page.classList.remove('active');
-            });
-            document.getElementById(pageId).classList.add('active');
-        }
-    </script>
 </head>
 <body>
-    <div class="navbar">
-        <a href="#" onclick="showPage('home')">Home</a>
-        <a href="#" onclick="showPage('shop')">Shop</a>
-        <a href="#" onclick="showPage('reviews')">Reviews</a>
-        <a href="#" onclick="showPage('contact')">Contact Us</a>
-        <a href="#" onclick="showPage('payment')">Payment & Shipping</a>
-    </div>
-
-    <div class="content">
-        <!-- Home Page -->
-        <div id="home" class="page active">
-            <h1>Welcome to Our Water Bottle Store</h1>
-            <p>Your hydration companion for every adventure.</p>
-            <h2>About Us</h2>
-            <p>We are dedicated to providing the best water bottles for all your needs.</p>
-            <h2>Product Features</h2>
-            <p>Our bottles are made from BPA-free materials and come with a lifetime guarantee.</p>
-            <h2>Sustainability</h2>
-            <p>Committed to a greener planet with recyclable and eco-friendly products.</p>
+    <header class="header">
+        <div>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
         </div>
-
-        <!-- Shop Page -->
-        <div id="shop" class="page">
-            <h1>Shop</h1>
-            <h2>Shop Home</h2>
-            <p>Explore our range of water bottles.</p>
-            <h2>Product Details</h2>
-            <p>Each bottle is designed with your health and convenience in mind.</p>
-            <h2>Pricing</h2>
-            <p>Competitive pricing on all our bottles.</p>
+        <h1>blank slate home</h1>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+            </button>
         </div>
-
-        <!-- Reviews Page -->
-        <div id="reviews" class="page">
-            <h1>Reviews</h1>
-            <p>See what our customers have to say about our products.</p>
+        <div class="account">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.243 11.337 2 8.884 2 6.5 2 4.116 3.243 2.663 5.468 2.629c1.984-.032 3.967.415 5.468 2.629A7 7 0 0 0 8 1z"/>
+                </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3.07a.5.5 0 0 1-.17.686L2.61 6.39a.5.5 0 0 1-.621.229H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.217c.5.5.876.95 1.071 1.493l1.683 5.69a1.75 1.75 0 0 1-1.072 2.454l-1.683-5.69c-.201-.54-.571-.993-1.071-1.493H3.102zM5 12a2 2 0 1 0 4 0 2 2 0 0 0-4 0zm7 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
+                </svg>
+            </a>
         </div>
-
-        <!-- Contact Us Page -->
-        <div id="contact" class="page">
-            <h1>Contact Us</h1>
-            <p>Get in touch with us for any queries or support.</p>
+    </header>
+    <main class="container">
+        <div class="content">
+            <div class="product">
+                <img src="https://i.imgur.com/7Z2qYpL.jpg" alt="Copper Bottle">
+                <div class="title">COPPER BOTTLE 950 ml HUMMING
+                    BIRD</div>
+                <div class="price">Rs. 1,950.00</div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://i.imgur.com/w2i8oD2.jpg" alt="Indigo Blue Floral Copper Bottle">
+                <div class="title">Indigo Blue Floral Copper Bottle</div>
+                <div class="price">Rs. 1,850.00</div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://i.imgur.com/x83pY7e.jpg" alt="Copper Bottle 950 ml - Summer Rain">
+                <div class="title">Copper Bottle 950 ml - Summer Rain</div>
+                <div class="price">Rs. 1,900.00</div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://i.imgur.com/j8W9O8n.jpg" alt="Copper Bottle 950 ml Blue & White Acorn">
+                <div class="title">Copper Bottle 950 ml - Blue & White
+                    Acorn</div>
+                <div class="price">Rs. 1,950.00</div>
+                <button>Add to Cart</button>
+            </div>
         </div>
-
-        <!-- Payment & Shipping Page -->
-        <div id="payment" class="page">
-            <h1>Payment & Shipping</h1>
-            <p>Details about payment methods and shipping information.</p>
-        </div>
-    </div>
+    </main>
+    <script>
+        // Example for adding to cart functionality (replace with actual implementation)
+        const addToCartButtons = document.querySelectorAll(".product button");
+        addToCartButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                alert("Item added to cart!");
+            });
+        });
+    </script>
 </body>
 </html>
