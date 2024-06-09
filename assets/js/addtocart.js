@@ -1,13 +1,13 @@
 const product = [
     {
         id: 0,
-        image: 'image/hh-2.jpg',
+        image: 'image/hh-2.jpeg',
         title: 'Flask',
         price: 1200,
     },
     {
         id: 1,
-        image: 'image/hh-2.jpg',
+        image: 'image/hh-2.jpeg',
         title: 'Air Pods Pro',
         price: 60,
     },
