@@ -13,7 +13,7 @@ const product = [
     },
     {
         id: 2,
-        image: 'image/stainless.jpeg',
+        image: 'image/ecofriendly plastic.jpeg',
         title: '250D DSLR Camera',
         price: 230,
     },
