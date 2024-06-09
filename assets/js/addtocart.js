@@ -1,7 +1,7 @@
 const product = [
     {
         id: 0,
-        image: 'image/aa-1.jpg',
+        image: 'image/hh-2.jpg',
         title: 'Flask',
         price: 1200,
     },
