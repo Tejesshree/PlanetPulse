@@ -1,7 +1,7 @@
 const product = [
     {
         id: 0,
-        image: 'image/gg-1.jpg',
+        image: 'assets/img/waterbottles/pikaso_texttoimage_generate-5-steel-water-bottle-with-text-planet-pul (2).jpeg',
         title: 'Z Flip Foldable Mobile',
         price: 120,
     },
