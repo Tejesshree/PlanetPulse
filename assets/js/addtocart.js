@@ -1,9 +1,9 @@
 const product = [
     {
         id: 0,
-        image: 'assets/img/waterbottles/pikaso_texttoimage_generate-stainless-steel-water-bottle-with-tempera.jpeg',
-        title: 'Z Flip Foldable Mobile',
-        price: 120,
+        image: 'assets/img/gallery/1.Admin Staffs-20240316T080105Z-001/1.Admin Staffs/1.Dr.P.T.V.B.jpeg',
+        title: 'Flask',
+        price: 1200,
     },
     {
         id: 1,
