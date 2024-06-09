@@ -13,13 +13,19 @@ const product = [
     },
     {
         id: 2,
-        image: 'image/ee-3.jpg',
+        image: 'image/stainless.jpeg',
         title: '250D DSLR Camera',
         price: 230,
     },
     {
         id: 3,
-        image: 'image/aa-1.jpg',
+        image: 'image/stainless.jpeg',
+        title: '250D DSLR Camera',
+        price: 230,
+    },
+    {
+        id: 4,
+        image: 'image/ecofriendly plastic.jpeg',
         title: 'Head Phones',
         price: 100,
     }
