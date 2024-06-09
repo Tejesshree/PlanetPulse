@@ -7,7 +7,7 @@ const product = [
     },
     {
         id: 1,
-        image: 'image/hh-2.jpeg',
+        image: 'image/steel.jpeg',
         title: 'Air Pods Pro',
         price: 60,
     },
