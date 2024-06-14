@@ -51,7 +51,7 @@ nav {
 }
 
 .menu li > a:hover {
-  color: #d9232d;
+  color: #7bb2d1;
   transition: 0.3s ease;
 }
 
@@ -83,7 +83,7 @@ nav {
 }
 
 .dropdown li:hover {
-  color: #d9232d;
+  color: #7bb2d1;
   z-index: 1;
 }
 
@@ -147,7 +147,7 @@ input[type="checkbox"] {
   }
 
   .dropdown li:hover {
-    color: #d9232d;
+    color: #7bb2d1;
     z-index: 1;
   }
 }
@@ -206,7 +206,7 @@ input[type="checkbox"] {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #d9232d;
+  background: #7bb2d1;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -319,11 +319,11 @@ input[type="checkbox"] {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #d9232d;
+  border: 1px solid #7bb2d1;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #d9232d;
+  background-color: #7bb2d1;
 }
 
 .portfolio-details .portfolio-info {
@@ -833,11 +833,11 @@ float:right;
   line-height: 1;
   color: #fff;
   animation-delay: 0.8s;
-  background: #d9232d;
+  background: #7bb2d1;
 }
 
 #hero .btn-get-started:hover {
-  background: #df3740;
+  background: #7bb2d1;
 }
 
 @media (max-width: 992px) {
